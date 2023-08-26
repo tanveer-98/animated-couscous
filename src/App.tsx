@@ -21,9 +21,10 @@ function App() {
   }
 
   const handleCopy = ()=>{
-    if(errorMessage!==""){
+    if(password ==""){
       alert("Please Generate First")
     }
+
      navigator.clipboard.writeText(password);
      alert("Copied to ClipBoard")
   }
