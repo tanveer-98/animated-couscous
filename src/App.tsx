@@ -23,6 +23,7 @@ function App() {
   const handleCopy = ()=>{
     if(password ==""){
       alert("Please Generate First")
+      return;
     }
 
      navigator.clipboard.writeText(password);
